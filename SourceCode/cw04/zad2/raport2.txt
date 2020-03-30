@@ -1,0 +1,6 @@
+1) Funkcja fork()
+Po wywołaniu funkcji fork() dziedziczone są handlery, jak również opcje maskowania sygnałów, ale nie są dziedziczone wiszące sygnały
+
+2) Funkcja exec()
+Po wywołaniu funkcji exec() dziedziczone są opcje maskowania oraz wiszące sygnały, ale nie są dziedziczone handlery
+
