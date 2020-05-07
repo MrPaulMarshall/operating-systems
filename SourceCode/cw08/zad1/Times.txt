@@ -1,0 +1,84 @@
+Threads: 1, mode: sign
+[1] execution time: 0.001281s
+Total execution time: 0.001466s
+
+Threads: 2, mode: sign
+[1] execution time: 0.001316s
+[2] execution time: 0.001034s
+Total execution time: 0.001451s
+
+Threads: 4, mode: sign
+[1] execution time: 0.001262s
+[2] execution time: 0.001680s
+[3] execution time: 0.001175s
+[4] execution time: 0.000706s
+Total execution time: 0.001837s
+
+Threads: 8, mode: sign
+[1] execution time: 0.002353s
+[2] execution time: 0.002272s
+[3] execution time: 0.002674s
+[4] execution time: 0.002318s
+[5] execution time: 0.002296s
+[6] execution time: 0.001551s
+[7] execution time: 0.001116s
+[8] execution time: 0.001105s
+Total execution time: 0.002855s
+
+-------------------------------
+
+Threads: 1, mode: block
+[1] execution time: 0.000759s
+Total execution time: 0.000935s
+
+Threads: 2, mode: block
+[1] execution time: 0.001319s
+[2] execution time: 0.001335s
+Total execution time: 0.001523s
+
+Threads: 4, mode: block
+[1] execution time: 0.000877s
+[2] execution time: 0.001023s
+[3] execution time: 0.001046s
+[4] execution time: 0.000994s
+Total execution time: 0.001178s
+
+Threads: 8, mode: block
+[1] execution time: 0.000841s
+[2] execution time: 0.000715s
+[3] execution time: 0.000769s
+[4] execution time: 0.000894s
+[5] execution time: 0.000897s
+[6] execution time: 0.000887s
+[7] execution time: 0.000819s
+[8] execution time: 0.000138s
+Total execution time: 0.001269s
+
+-------------------------------
+
+Threads: 1, mode: interleaved
+[1] execution time: 0.001854s
+Total execution time: 0.001994s
+
+Threads: 2, mode: interleaved
+[1] execution time: 0.001600s
+[2] execution time: 0.001796s
+Total execution time: 0.001940s
+
+Threads: 4, mode: interleaved
+[1] execution time: 0.001728s
+[2] execution time: 0.001565s
+[3] execution time: 0.001186s
+[4] execution time: 0.000991s
+Total execution time: 0.001861s
+
+Threads: 8, mode: interleaved
+[1] execution time: 0.001796s
+[2] execution time: 0.002061s
+[3] execution time: 0.002428s
+[4] execution time: 0.001532s
+[5] execution time: 0.001642s
+[6] execution time: 0.001303s
+[7] execution time: 0.000847s
+[8] execution time: 0.000615s
+Total execution time: 0.003608s
