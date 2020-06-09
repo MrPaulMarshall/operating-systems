@@ -15,22 +15,6 @@
  * zwrocic 0 w przypadku sukcesu oraz -1 w przypadku bledu
  * polaczenia.
  */
-// int ipconnect(int sock, char *ip_addr, short port) {
-//     // Uzupelnij cialo funkcji ipconnect zgodnie z
-//     // komentarzem powyzej.
-
-//     struct sockaddr_in serv_addr;
-//     struct hostent * server = gethostbyname(ip_addr);
-
-//     serv_addr.sin_family = AF_INET;
-//     serv_addr.sin_port = htons(port);
-//     serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
-//     strcpy((char *) &serv_addr.sin_addr.s_addr,
-//            (char *)server->h_addr);
-            
-//     return bind(sock, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
-
-// }
 
 int ipconnect(int sock, char *ip_addr, short port) {
     // Uzupelnij cialo funkcji ipconnect zgodnie z
