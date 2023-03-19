@@ -3,6 +3,7 @@
 
 # IDEs and text editors
 .vscode/
+.idea/
 
 # Object files
 *.o
